@@ -1,0 +1,123 @@
+a {
+    text-decoration: none;
+    color: inherit;
+    font-family: "Gabarito", sans-serif;
+}
+
+.container {
+    height: 100vh;
+    /*vertical*/
+    margin: 10px;
+    padding: 10px;
+    overflow: auto;
+    background-color: #1a1717;
+}
+
+.divCabecera {
+    height: 100px;
+    margin: 10px;
+    background-color: #eb135b;
+    border-radius: 10px;
+
+}
+
+.divPrincipal {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /*1 fracción, o 1 parte del TODO en el que está contenido*/
+    height: 100%;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #f4821a;
+}
+
+.zonaNavegacion {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    border-radius: 10px;
+    background-color: #f4821a;
+}
+
+.zonaNavegacion div {
+    width: 1fr;
+    min-height: 50px;
+    height: auto;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #0262ae;
+    border-radius: 10px;
+    text-align: center;
+
+}
+
+.zonaNavegacion div:hover {
+    background-color: #eb135b;
+}
+
+.zonaContenido {
+    grid-column: 2 / 5;
+    margin: 5px;
+    padding-left: 5px;
+
+    border-radius: 6px;
+    border: 3px solid #1a1717;
+    background-color: #0262ae;
+
+    font-family: "Gabarito", sans-serif;
+}
+
+.logoPrincipal {
+    display: block;
+    margin: auto;
+    margin-top: -102px;
+}
+
+.logoPrincipalFooter {
+    display: block;
+    margin: auto;
+    margin-top: -65px;
+}
+
+.logoGifFooter {
+    display: block;
+    margin-left: auto;
+}
+
+.paleta {
+    display: block;
+    margin: auto;
+}
+
+.bienvenida {
+    font: gabarito;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.lema {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.parrafo {
+    font-size: 18px;
+    text-align: justify;
+    margin: 25px;
+}
+
+.footer {
+    color: white;
+    font-family: "Gabarito", sans-serif;
+    font-size: 10px;
+    text-align: center;
+}
+
+.apartado {
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
