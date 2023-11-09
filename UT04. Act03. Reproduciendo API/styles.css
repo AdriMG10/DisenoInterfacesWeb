@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+* {
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+.div__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+
+    background-color: #ef5350;
+    height: 50px;
+}
+
+.img__header {
+    display: flex;
+    position: absolute;
+    height: 42px;
+    width: auto;
+    padding: .25em .5em
+}
+
+.nav__header {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right: 15px;
+}
+
+nav>a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav__header>a:hover {
+    text-decoration: underline;
+    background-color: #e94141;
+}
+
+li>a {
+    color: #117eed;
+    text-decoration: none;
+}
+
+p>a {
+    color: #117eed;
+    text-decoration: none;
+}
+
+li>a:hover {
+    text-decoration: underline
+}
+
+main {
+    display: flex;
+}
+
+.zonaMain {
+    display: grid;
+    margin-top: 10px;
+    
+    
+    grid-template-columns: repeat(20, 1fr);
+    grid-auto-rows: minmax(100px, auto);
+    
+    row-gap: 10px;
+    column-gap: 10px;
+    background-color: #ffffff;
+}
+
+.nav__zonaNavegacion {
+    position: sticky;
+    display: block;
+    grid-column: 5/7;
+    max-height: 100vh;
+    overflow-y: auto;
+    top: 0;
+}
+
+.div__zonaNavegacion a {
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: #117eed;
+    margin-bottom: 5px;
+}
+
+.zonaContenido {
+    grid-column: 7/16;
+    margin-left: 50px;
+}
+
+.span--grey {
+    color: grey;
+    font-weight: lighter;
+}
+
+.zonaFooter {
+    border-top: 1px solid #ef5350;
+    padding: 1em;
+    background-color: #fbfbfb
+}
+
+.div__footer {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+
+    gap: 10px
+}
+
+.div__footer>div>a {
+    color: #117eed;
+    text-decoration: none;
+}

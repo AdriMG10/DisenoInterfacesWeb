@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Documentation - PokéAPI</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <div class="div__header">
+                <a
+                    ><img
+                        class="img__header"
+                        src="pokeapi_logoHeader.png"
+                        alt="PokéAPI"
+                /></a>
+                <nav class="nav__header">
+                    <a href="">Home</a>
+                    <a href="">About</a>
+                    <a href="apiv2.html">API v2</a>
+                    <a href="">GraphQL v1beta</a>
+                </nav>
+            </div>
+        </header>
+        <main class="zonaMain">
+            <nav class="nav__zonaNavegacion">
+                <h3>Contents</h3>
+                <div class="div__zonaNavegacion">
+                    <a href="#info">Information</a>
+                    <a href="#fairuse">Fair Use Policy</a>
+                    <a href="#slack">Slack</a>
+                    <a href="#wrapper">Wrapper Libraries</a>
+                    <a href="#resource">Resource Lists/Pagination</a>
+                </div>
+            </nav>
+            <div class="zonaContenido">
+                <p>
+                    If you were using v1 of this API, please switch to v2 (this
+                    page). <a href="">Read more...</a>
+                </p>
+                <p>
+                    <strong>Quick tip:</strong>
+                    Use your browser's "find on page" feature to search for
+                    specific resource types (<kbd>Ctrl+F</kbd> or
+                    <kbd>Cmd+F</kbd>
+                    ).
+                </p>
+                <h2 id="info">Information</h2>
+                <p>
+                    This is a <strong>consumption-only</strong> API &#x2014;
+                    only the HTTP GET method is available on resources.
+                </p>
+                <p>
+                    No authentication is required to access this API, and all
+                    resources are fully open and available. Since the move to
+                    static hosting in November 2018, rate limiting has been
+                    removed entirely, but we still encourage you to limit the
+                    frequency of requests to limit our hosting costs.
+                </p>
+                <h2 id="fairuse">Fair Use Policy</h2>
+                <p>
+                    PokéAPI is free and open to use. It is also very popular.
+                    Because of this, we ask every developer to abide by our fair
+                    use policy. People not complying with the fair use policy
+                    will have their IP address permanently banned.
+                </p>
+                <p>
+                    PokéAPI is primarily an educational tool, and we will not
+                    tolerate denial of service attacks preventing people from
+                    learning.
+                </p>
+                <p>Rules:</p>
+                <ul>
+                    <li>Locally cache resources whenever you request them.</li>
+                    <li>
+                        Be nice and friendly to your fellow PokéAPI developers.
+                    </li>
+                </ul>
+                <h2 id="slack">Slack</h2>
+                <p>
+                    Have questions? Ideas? Notice something amiss here in the
+                    docs? Hit us up on Slack. Sign up right
+                    <a
+                        href="https://join.slack.com/t/pokeapi/shared_invite/zt-1l4vpwa8k-muQmMrFfv7TIFGrVWzjzcw"
+                        >here</a
+                    >
+                    then visit our <a href="https://pokeapi.slack.com">Slack</a>
+                    team. We encourage you to come here before opening a ticket
+                    on GitHub, so we can keep our issues nice and organized.
+                    There are also a solid group of people using the API who may
+                    already have answers or plans from experience.
+                </p>
+                <h2 id="wrapper">Wrapper Libraries</h2>
+                <ul>
+                    <li>
+                        <strong>Node Server-side with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/PokeAPI/pokedex-promise-v2"
+                            rel="nofollow"
+                            >Pokedex Promise v2</a
+                        >
+                        by Thomas Asadurian and Alessandro Pezzé
+                    </li>
+                    <li>
+                        <strong>Browser-side with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/PokeAPI/pokeapi-js-wrapper"
+                            rel="nofollow"
+                            >pokeapi-js-wrapper</a
+                        >
+                        by Alessandro Pezzé
+                    </li>
+                    <li>
+                        <strong>Python 3 with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/GregHilmes/pokebase"
+                            rel="nofollow"
+                            >PokeBase</a
+                        >
+                        by Greg Hilmes
+                    </li>
+                    <li>
+                        <strong>Python 2/3 with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/PokeAPI/pokepy"
+                            rel="nofollow"
+                            >Pokepy</a
+                        >
+                        by Paul Hallett
+                    </li>
+                    <li>
+                        <strong>Kotlin (and Java)</strong>
+                        :
+                        <a
+                            href="https://github.com/PokeAPI/pokekotlin"
+                            rel="nofollow"
+                            >PokeKotlin</a
+                        >
+                        by sargunster
+                    </li>
+                    <li>
+                        <strong>Java (Spring Boot) with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/SirSkaro/pokeapi-reactor"
+                            rel="nofollow"
+                            >pokeapi-reactor</a
+                        >
+                        by Benjamin Churchill
+                    </li>
+                    <li>
+                        <strong>.NET (C#, VB, etc)</strong>
+                        :
+                        <a
+                            href="https://gitlab.com/PoroCYon/PokeApi.NET"
+                            rel="nofollow"
+                            >PokeApi.NET</a
+                        >
+                        by PoroCYon
+                    </li>
+                    <li>
+                        <strong>.NET Standard</strong>
+                        :
+                        <a
+                            href="https://github.com/mtrdp642/PokeApiNet"
+                            rel="nofollow"
+                            >PokeApiNet</a
+                        >
+                        by mtrdp642
+                    </li>
+                    <li>
+                        <strong>Swift</strong>
+                        :
+                        <a
+                            href="https://github.com/kinkofer/PokemonAPI"
+                            rel="nofollow"
+                            >PokemonAPI</a
+                        >
+                        by kinkofer
+                    </li>
+                    <li>
+                        <strong>PHP</strong>
+                        :
+                        <a
+                            href="https://github.com/danrovito/pokephp"
+                            rel="nofollow"
+                            >PokePHP</a
+                        >
+                        by Dan Rovito
+                    </li>
+                    <li>
+                        <strong>PHP</strong>
+                        :
+                        <a
+                            href="https://github.com/lmerotta/phpokeapi"
+                            rel="nofollow"
+                            >PHPokéAPI</a
+                        >
+                        by lmerotta
+                    </li>
+                    <li>
+                        <strong>Ruby</strong>
+                        :
+                        <a
+                            href="https://github.com/rdavid1099/poke-api-v2"
+                            rel="nofollow"
+                            >Poke-Api-V2</a
+                        >
+                        by rdavid1099
+                    </li>
+                    <li>
+                        <strong>Go</strong>
+                        :
+                        <a
+                            href="https://github.com/mtslzr/pokeapi-go"
+                            rel="nofollow"
+                            >pokeapi-go</a
+                        >
+                        by mtslzr
+                    </li>
+                    <li>
+                        <strong>Crystal</strong>
+                        :
+                        <a
+                            href="https://github.com/henrikac/pokeapi"
+                            rel="nofollow"
+                            >pokeapi</a
+                        >
+                        by henrikac
+                    </li>
+                    <li>
+                        <strong>Typescript with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/Gabb-c/pokenode-ts"
+                            rel="nofollow"
+                            >Pokenode-ts</a
+                        >
+                        by Gabb-c
+                    </li>
+                    <li>
+                        <strong>Rust with auto caching</strong>
+                        :
+                        <a
+                            href="https://crates.io/crates/rustemon"
+                            rel="nofollow"
+                            >Rustemon</a
+                        >
+                        by mlemesle
+                    </li>
+                    <li>
+                        <strong
+                            >Asynchronous Python wrapper with auto
+                            caching</strong
+                        >
+                        :
+                        <a
+                            href="https://github.com/beastmatser/aiopokeapi"
+                            rel="nofollow"
+                            >aiopokeapi</a
+                        >
+                        by beastmatser
+                    </li>
+                    <li>
+                        <strong>Scala 3 with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/juliano/pokeapi-scala"
+                            rel="nofollow"
+                            >pokeapi-scala</a
+                        >
+                        by Juliano Alves
+                    </li>
+                    <li>
+                        <strong>Elixir wrapper with auto caching</strong>
+                        :
+                        <a
+                            href="https://github.com/HenriqueArtur/Max-Elixir-PokeAPI"
+                            rel="nofollow"
+                            >Max-Elixir-PokeAPI</a
+                        >
+                        by Henrique Artur
+                    </li>
+                </ul>
+                <h2 id="resource">
+                    Resource Lists/Pagination
+                    <span class="span--grey">(group)</span>
+                </h2>
+                <div>
+                    <p>
+                        Calling any API endpoint without a resource ID or name
+                        will return a paginated list of available resources for
+                        that API. By default, a list "page" will contain up to
+                        20 resources. If you would like to change this just add
+                        a 'limit' query parameter to the GET request, e.g.
+                        <code>?limit=60</code> . You can use 'offset' to move to
+                        the next page, e.g.
+                        <code>?limit=60&offset=60</code>
+                        .
+                    </p>
+                </div>
+                <h3 id="named">
+                    Named
+                    <span class="span--grey">(endpoint)</span>
+                </h3>
+                <div></div>
+                <p>
+                    <span>GET</span>
+                    https://pokeapi.co/api/v2/{endpoint}/
+                </p>
+                <div>
+                    <div>
+                        <pre>
+                            <code>{
+                                "count ": 248,
+                                "next ": "https://pokeapi.co/api/v2/ability/?limit=20 &offset=20 ",
+                                "previous ": null,
+                                "results ": [
+                                {
+                                "name ": "stench ",
+                                "url ": "https://pokeapi.co/api/v2/ability/1/"}
+                                ]
+                                }</code>
+                        </pre>
+                    </div>
+                    <div>
+                        <label title="Disabled until JavaScript loads">
+                            <input type="checkbox" checked disabled />
+                            View raw JSON ( 0.213 kB, 11 lines)
+                        </label>
+                    </div>
+                </div>
+                <h3 id="namedapiresourcelist">
+                    NamedAPIResourceList
+                    <span class="span--grey">(type)</span>
+                </h3>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Type</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>count</td>
+                            <td>
+                                <p>
+                                    The total number of resources available from
+                                    this API.
+                                </p>
+                            </td>
+                            <td>
+                                <i>integer</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>next</td>
+                            <td>
+                                <p>The URL for the next page in the list.</p>
+                            </td>
+                            <td>
+                                <i>string</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>previous</td>
+                            <td>
+                                <p>
+                                    The URL for the previous page in the list.
+                                </p>
+                            </td>
+                            <td>
+                                <i>string</i>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>results</td>
+                            <td>
+                                <p>A list of named API resources.</p>
+                            </td>
+                            <td>
+                                list
+                                <i>
+                                    <a href="#namedapiresource">
+                                        NamedAPIResource
+                                    </a>
+                                </i>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </main>
+        <footer class="zonaFooter">
+            <div class="div__footer">
+                <div>
+                    Created by
+                    <a href="https://phalt.github.io/">Paul Hallett</a> and
+                    other
+                    <a href="https://github.com/PokeAPI/pokeapi#contributing"
+                        >PokéAPI contributors</a
+                    >
+                    around the world. Pokémon and Pokémon character names are
+                    trademarks of Nintendo.
+                </div>
+                <div>
+                    <a href="https://pokeapi.statuspage.io/">
+                        <img
+                            alt="Status"
+                            src="https://img.shields.io/badge/dynamic/json?color=blue&amp;label=status&amp;query=%24.status.description&amp;url=https%3A%2F%2Fzlfyqp3hlvly.statuspage.io%2Fapi%2Fv2%2Fsummary.json"
+                        />
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
