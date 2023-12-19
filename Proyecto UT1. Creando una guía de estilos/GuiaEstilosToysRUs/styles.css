@@ -1,3 +1,6 @@
+/* import fuente Open Sans y Patua One*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Patua+One&display=swap');
+
 a {
     text-decoration: none;
     color: inherit;
@@ -88,6 +91,7 @@ a {
 .paleta {
     display: block;
     margin: auto;
+    height: 400px;
 }
 
 .bienvenida {
@@ -109,6 +113,26 @@ a {
     margin: 25px;
 }
 
+.ejemplos__tipografia {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.parrafo__tipografia__sans-serif {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 25px;
+}
+
+.parrafo__tipografia__serif {
+    font-family: 'Patua One', serif;
+    font-size: 18px;
+    text-align: justify;
+    margin: 25px;
+}
+
 .footer {
     color: white;
     font-family: "Gabarito", sans-serif;
@@ -120,4 +144,14 @@ a {
     font-size: 25px;
     font-weight: bold;
     text-align: center;
+}
+
+.div__iconos {
+    justify-content: center;
+    text-align: center;
+}
+
+.icono {
+    text-align: center;
+    height: 45px;
 }
