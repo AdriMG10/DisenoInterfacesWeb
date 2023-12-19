@@ -1,0 +1,47 @@
+/* Estilos Actividad 1 */
+
+/* h2: centrado y color */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Section: centrado */
+.section__center {
+    display: flex;
+    justify-content: center;
+}
+
+/* Tabla: sin bordes, ancho y alto*/
+table {
+    border-collapse: collapse;
+
+    width: 300px;
+    height: 300px;
+}
+
+/* tr: borde inferior */
+.table__row--first-row {
+    border-bottom: 2px solid black;
+}
+
+/* th: borde derecho */
+.row__th--right {
+    border-right: 2px solid black;
+}
+
+/* td: borde derecho e inferior */
+.row__td--right-bottom {
+    border-right: 1px solid gray;
+    border-bottom: 1px solid gray;
+}
+
+/* Footer: centrado */
+footer {
+    text-align: center;
+}
+
+/* Bold: naranja */
+b {
+    color: orangered;
+}

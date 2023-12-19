@@ -1,0 +1,125 @@
+/* Estilos Actividad 2 */
+
+/* h2: centrado y color */
+h2 {
+    text-align: center;
+    color: blue;
+}
+
+/* Section: centrado y fuente */
+.section__center {
+    display: flex;
+    justify-content: center;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Tabla: sin bordes */
+table {
+    border-collapse: collapse;
+}
+
+/* tr fila 1: color fondo, borde inferior y altura */
+.tr--titles {
+    background-color: red;
+    border-bottom: 2px solid black;
+    height: 50px;
+}
+
+/* th fila 1: anchura */
+.th--titles {
+    width: 80px;
+}
+
+/* th izq vacio: anchura */
+.th--empty {
+    width: 30px;
+}
+
+/* tr cuerpo: altura */
+.tr__body--types {
+    height: 30px;
+}
+
+/* Colores Tipos */
+.tr--acero {
+    background-color: gray;
+}
+
+.tr--volador {
+    background-color: dodgerblue;
+}
+
+.tr--agua {
+    background-color: blue;
+}
+
+.tr--hielo {
+    background-color: aqua;
+}
+
+.tr--planta {
+    background-color: green;
+}
+
+.tr--bicho {
+    background-color: seagreen;
+}
+
+.tr--electrico {
+    background-color: greenyellow;
+}
+
+.tr--normal {
+    background-color: bisque;
+}
+
+.tr--roca {
+    background-color: rgb(194, 108, 50);
+}
+
+.tr--tierra {
+    background-color: rgb(170, 82, 20);
+}
+
+.tr--fuego {
+    background-color: orange;
+}
+
+.tr--lucha {
+    background-color: orangered;
+}
+
+.tr--hada {
+    background-color: pink;
+}
+
+.tr--psiquico {
+    background-color: brown;
+}
+
+.tr--veneno {
+    background-color: hotpink;
+}
+
+.tr--dragon {
+    background-color: rgb(152, 85, 197);
+}
+
+.tr--fantasma {
+    background-color: purple;
+}
+
+.tr--siniestro {
+    background-color: sienna;
+}
+
+/* Footer: centrado */
+footer {
+    text-align: center;
+}
+
+/* Bold: naranja */
+b {
+    color: orangered;
+}
