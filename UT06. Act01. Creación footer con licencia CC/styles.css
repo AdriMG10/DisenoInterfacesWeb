@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'MAGIC';
+    src: url('fonts/MAGIC.TTF') format('truetype');
+}
+
+body {
+    font-family: 'MAGIC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.footer {
+    background-color: #BFBFBF;
+    padding: 20px;
+}
+
+.footer__logo img {
+    width: 80px;
+    height: auto;
+}
+
+.footer__logo h3 {
+    font-weight: normal;
+    font-size: xx-large;
+    word-spacing: 0.25em;
+}
+
+.footer__nav {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+.footer__nav a {
+    margin-right: 20px;
+    font-size: medium;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer__nav a:hover {
+    border-bottom: 3px solid #452a68;
+    border-radius: 5px;
+}
+
+.footer__social-icons img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer__copyright p {
+    font-size: small;
+}
+
+.footer__up a {
+    font-size: small;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer__up svg {
+    width: 28px;
+    height: auto;
+}
+
+.footer__mtg-logo img {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo h3 {
+    margin-left: 10px;
+}
+
+.footer__social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer__mtg-logo {
+    grid-column: 12/13;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer__up {
+    grid-column: 12/13;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}

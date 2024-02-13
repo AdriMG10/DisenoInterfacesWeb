@@ -1,0 +1,5 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path opacity="0.3" d="M50 15V45C50 47.75 47.75 50 45 50H15C12.225 50 10 47.75 10 45V15C10 12.225 12.225 10 15 10H45C47.75 10 50 12.225 50 15Z" fill="black"/>
+<path d="M45 50H15C12.2375 50 10 47.7625 10 45V15C10 12.2375 12.2375 10 15 10H45C47.7625 10 50 12.2375 50 15V45C50 47.7625 47.7625 50 45 50Z" stroke="black" stroke-width="8" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M33.3775 27.525L41.935 17.5H38.6575L31.8975 25.4L26.38 17.5H16.755L26.6075 31.5825L17.265 42.5H20.5975L28.1 33.71L34.245 42.5H43.8425L33.3775 27.525ZM21.415 19.97H25.1325L39.21 40.03H35.4675L21.415 19.97Z" fill="black"/>
+</svg>
