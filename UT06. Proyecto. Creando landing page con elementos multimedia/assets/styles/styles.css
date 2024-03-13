@@ -1,0 +1,212 @@
+@font-face {
+    font-family: 'MAGIC';
+    src: url('../fonts/MAGIC.TTF') format('truetype');
+}
+
+
+/* Body */
+body {
+    font-family: 'MAGIC', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+.header {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.header__div {
+    grid-column: 1/13;
+    display: grid;
+    flex-direction: column;
+}
+
+.header__zonaTitulo {
+    grid-column: 1/5;
+    background-color: #BFBFBF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__zonaTitulo h1 {
+    font-weight: normal;
+    font-size: 50pt;
+    word-spacing: 0.25em;
+}
+
+.header__zonaNav {
+    grid-column: 5/12;
+    background-color: #BFBFBF;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header__zonaNav a {
+    font-size: 20px;
+    padding: 1.5em;
+    text-decoration: none;
+    color: #212529;
+}
+
+.header__zonaNav a:hover {
+    border-bottom: 3px solid #212529;
+    border-radius: 5px;
+}
+
+
+/* Main */
+main {
+    background-image: url('../images/png/fondoKamigawa.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.main__div {
+    grid-column: 2/12;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main__div img {
+    grid-column: 3/5;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+}
+
+
+.main__div h1 {
+font-size: 40px;
+}
+
+.button__signIn {
+    font-family: 'MAGIC';
+    grid-column: 6/10;
+    background-color: #BFBFBF;
+    height: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    padding: 1.5em;
+    color: #212529;
+}
+
+/* Footer */
+.footer {
+    background-color: #BFBFBF;
+    padding: 20px;
+}
+
+.footer__div {
+    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.footer__logo {
+    grid-column: 1/6;
+}
+
+.footer__logo img {
+    width: 80px;
+    height: auto;
+}
+
+.footer__logo h3 {
+    font-weight: normal;
+    font-size: xx-large;
+    word-spacing: 0.25em;
+}
+
+.footer__nav {
+    grid-column: 7/13;
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.footer__nav a {
+    margin-right: 20px;
+    font-size: medium;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer__nav a:hover {
+    border-bottom: 3px solid #212529;
+    border-radius: 5px;
+}
+
+.footer__social-icons img {
+    width: 30px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.footer__copyright p {
+    font-size: small;
+}
+
+.footer__up a {
+    font-size: small;
+    text-decoration: none;
+    color: #212529;
+}
+
+.footer__up svg {
+    width: 28px;
+    height: auto;
+}
+
+.footer__mtg-logo img {
+    width: 80px;
+    height: auto;
+    float: right;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo h3 {
+    margin-left: 10px;
+}
+
+.footer__social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.footer__mtg-logo {
+    grid-column: 12/13;
+    grid-row: 5/6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.footer__up {
+    grid-column: 12/13;
+    grid-row: 1/2;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+}
