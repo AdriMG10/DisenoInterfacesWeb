@@ -2,6 +2,8 @@
 
 # UT06 - UT7. Proyecto. Creando landing page con elementos multimedia e interactivos
 
+>[Proyecto Figma](https://www.figma.com/file/DV9mFSuOTEvAs4un6MqLui/UT06---UT7.-Proyecto.-Creando-landing-page-con-elementos-multimedia-e-interactivos?type=design&node-id=0%3A1&mode=design&t=rXaTayfx9O9gaNAx-1)
+
 > # UT6
 
 ## 1. Realiza el diseño de la página landing haciendo uso de Figma.
@@ -39,7 +41,7 @@
 ### 2.2 Indica qué derechos de propiedad tienen los elementos seleccionados, qué implican dichos derechos y también indica las fuentes desde donde se ha obtenido la información.
 > - **Imágenes SVG:** Los derechos de propiedad de Icons8 permiten a los usuarios utilizar y modificar el material con licencia de manera perpetua y mundial, aunque no exclusiva ni transferible, con la posibilidad de revocación por parte de Icons8. Los licenciatarios son responsables de incluir una copia del acuerdo de licencia al distribuir el producto final y deben informar a terceros sobre las reglas de acreditación y distribución. [Fuente](https://intercom.help/icons8-7fb7577e8170/en/articles/5534926-universal-multimedia-license-agreement-for-icons8)
 > - **Imagen Kamigawa:** Las imágenes de Magic: The Gathering están protegidas por derechos de autor y por otras formas de propiedad intelectual. Los derechos de propiedad sobre estas imágenes son propiedad de Wizards of the Coast LLC, la empresa detrás de Magic: The Gathering. Como tal, no se pueden utilizar, copiar, distribuir o modificar estas imágenes sin el permiso expreso de Wizards of the Coast LLC. [Fuente](https://company.wizards.com/es/legal/terms)
-> - **Logo App:** Los derechos de propiedad del Generador de Imágenes de Designer incluyen el cumplimiento de un contrato de uso, el respeto al código de conducta y la aceptación de los términos de servicio de Microsoft. Microsoft no reclama la titularidad del contenido generado, pero el usuario otorga ciertos derechos de licencia sobre dicho contenido. Además, Microsoft no garantiza el funcionamiento del generador y no se hace responsable de los posibles daños derivados de su uso. [Fuente 1](https://www.bing.com/new/termsofuseimagecreator?FORM=GENTOS) [Fuente 2](https://www.microsoft.com/es-es/servicesagreement)
+> - **Logo App:** Los derechos de propiedad del Generador de Imágenes de Designer incluyen el cumplimiento de un contrato de uso, el respeto al código de conducta y la aceptación de los términos de servicio de Microsoft. Microsoft no reclama la titularidad del contenido generado, pero el usuario otorga ciertos derechos de licencia sobre dicho contenido. Además, Microsoft no garantiza el funcionamiento del generador y no se hace responsable de los posibles daños derivados de su uso. [Fuente 1](https://www.bing.com/new/termsofuseimagecreator?FORM=GENTOS) - [Fuente 2](https://www.microsoft.com/es-es/servicesagreement)
 > - **Logo Magic the Gathering:** Las imágenes de Magic: The Gathering están protegidas por derechos de autor y por otras formas de propiedad intelectual. Los derechos de propiedad sobre estas imágenes son propiedad de Wizards of the Coast LLC, la empresa detrás de Magic: The Gathering. Como tal, no se pueden utilizar, copiar, distribuir o modificar estas imágenes sin el permiso expreso de Wizards of the Coast LLC. [Fuente](https://company.wizards.com/es/legal/terms)
 > - **Licencia CC:** Las imágenes de Creative Commons se ofrecen bajo licencias Creative Commons, que permiten a los usuarios compartir, copiar y redistribuir el material de diversas maneras, según los términos de la licencia específica asociada con cada imagen. Las licencias Creative Commons varían en términos de uso, como atribución, no comercialidad, compartir igual, entre otros. Es importante revisar la licencia específica asociada con cada imagen para comprender los términos y condiciones exactos de su uso. [Fuente](https://creativecommons.org/terms/)
 
@@ -66,29 +68,49 @@
 
 ##  1. Realiza el diseño del elemento interactivo que se desee implementar de entre las siguientes opciones:
 
-### 1.1 Tabs
-### 1.2 Acordeón
-### 1.3 LightBox
-### 1.4 Carrousel/Slider
+### 1.1 Tabs - **Acordeón** - LightBox - Carrousel/Slider
+>![Acordeón](recursosMD/acordeon.png)
 
 ##  2. Realiza la implementación de la página diseñada.
 
 ### 2.1 Realiza la implementación del código HTML.
+> - [Código HTML](index.html)
 
 ### 2.2 Realiza la implementación del código CSS.
+> - [Código CSS](assets/styles/styles.css)
 
 ### 2.3 Realiza la implementación del código JS.
+> - [Código JS](assets/scripts/script.js)
 
 ##  3. Comprueba el funcionamiento de tu elemento interactivo en diferentes navegadores.
 
 ### 3.1 Adjunta pantallazos que muestren el correcto funcionamiento del elemento en diferentes navegadores.
+> #### Google Chrome
+>![Acordeón en Google Chrome](recursosMD/acordeonChrome.png)
+
+> #### Opera GX
+>![Acordeón en Opera GX](recursosMD/acordeonOpera.png)
+
+> #### Mozilla Firefox
+>![Acordeón en Mozilla Firefox](recursosMD/acordeonFirefox.png)
+
+> #### Microsoft Edge
+>![Acordeón en Microsoft Edge](recursosMD/acordeonEdge.png)
 
 ##  4. Incluye elementos multimedia en tu elemento interactivo.
 
 ### 4.1 Incluye elementos multimedia en al menos 3 formatos diferentes (relacionado con UT06).
+> #### JPG: Asesinatos en la mansion Karlov
 
+>![Imagen JPG](recursosMD/MKM.jpg)
+
+> #### WebP: Rávnica remasterizada
+>![Imagen WebP](recursosMD/nueveVidas.webp)
+
+> #### PNG: Las cavernas perdidas de Ixalan
+>![Imagen PNG](recursosMD/Nissa.png)
+
+>**(No se muestran en las capturas anteriores por querer mostrar el acordeón completo, pero están en el código)**
 ---
-
->[Enlace Proyecto Figma](https://www.figma.com/file/DV9mFSuOTEvAs4un6MqLui/UT06---UT7.-Proyecto.-Creando-landing-page-con-elementos-multimedia-e-interactivos?type=design&node-id=0%3A1&mode=design&t=rXaTayfx9O9gaNAx-1)
 
 [Inicio README](#top)

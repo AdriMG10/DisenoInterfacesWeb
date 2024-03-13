@@ -88,7 +88,7 @@ main {
 
 
 .main__div h1 {
-font-size: 40px;
+    font-size: 40px;
 }
 
 .button__signIn {
@@ -103,6 +103,34 @@ font-size: 40px;
     padding: 1.5em;
     color: #212529;
 }
+
+.accordion-item {
+    margin-bottom: 2px;
+}
+
+.accordion-btn {
+    font-family: 'MAGIC';
+    font-size: 22px;
+    background-color: #BFBFBF;
+    border: none;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+    background-color: #BFBFBF;
+    font-size: 20px;
+}
+
+.accordion-img {
+    width: 1200px;
+    height: auto;
+}
+
 
 /* Footer */
 .footer {
