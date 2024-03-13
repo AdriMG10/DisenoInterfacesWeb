@@ -44,7 +44,7 @@
 > - **Licencia CC:** Las imágenes de Creative Commons se ofrecen bajo licencias Creative Commons, que permiten a los usuarios compartir, copiar y redistribuir el material de diversas maneras, según los términos de la licencia específica asociada con cada imagen. Las licencias Creative Commons varían en términos de uso, como atribución, no comercialidad, compartir igual, entre otros. Es importante revisar la licencia específica asociada con cada imagen para comprender los términos y condiciones exactos de su uso. [Fuente](https://creativecommons.org/terms/)
 
 ### 2.3 Exporta dichos elementos multimedia a, al menos, 3 formatos diferentes.
-> Los elementos multimedia han sido exportados a SVG, PNG, JPG y WebP.
+> Los elementos multimedia han sido exportados a SVG, PNG, JPG y WebP. Se ha utilizado la herramienta de edición Photopea.
 
 ### 2.4 Justifica la decisión de escoger esos formatos para esos elementos multimedia.
 > - **SVG:** Escalables sin perder calidad además de permitir la interactividad y la animación.
